@@ -58,7 +58,7 @@ At the top of the structure is called the root directory. It’s denoted by a si
 
 ..dot dot – this reference to the parent directory. Example: ../.. 
 
-Command CD – changes the directory or location. (CD [location] without any argument then it will always take you back to the root directory.
+Command CD – changes the directory or location. (CD [location] without any argument will always take you back to the root directory.
 
 
 File extension – are a set of 2 – 4 characters after a file stop at the end of a file.
