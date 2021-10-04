@@ -15,7 +15,7 @@ Types of text editors
 
 Mac computers use “Text edit’, Windows use ‘Notepad’ and Linux use ‘Gedit’. These come with the computer system.
 
-There are some more advanced free download text editors that can be installed.
+There are some more *advanced* free download text editors that can be installed.
 + Notepad ++ (windows only) is faster and handles large files compared to Notepad.
 + Atom is brought by Github and Brackets are brought by Adobe and offer live preview (windows & Mac).
 
