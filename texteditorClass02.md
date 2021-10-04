@@ -4,7 +4,7 @@ Text Editor allows you to write and manage text that is built for a web site.
 
 **Important Features**
 
-*Code completion* – displays possible suggestions of text while you are typing.  Emmet is shorthand language that speeds up the coding process. It shows closing tags and brackets when you use open tags and brackets.
+*Code completion* – displays possible suggestions of text while you are typing.  Emmet is a shorthand language that speeds up the coding process. It shows closing tags and brackets when you use open tags and brackets.
 *System highlighting* –takes the text you type and colorize the text. It makes it easier to locate errors.
 
 *Variety of themes* – background color, series of text color. Users mostly prefer dark background and bright color text. (this makes it easier on the eyes for viewing).
