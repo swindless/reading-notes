@@ -13,6 +13,6 @@ Git creates a snapshot of a file and stores a reference to it. Each time a saved
 ### Three states of Git
 + Committed – stored in a local database.
 + Modified – file changed but not committed to the database.	
-+ Staged – flagged a file’s changed version to be committee in the next snapshot.
++ Staged – flagged a file’s changed version to be committed in the next snapshot.
 
 
