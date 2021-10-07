@@ -13,9 +13,9 @@
 5. **Get feedback:** It’s good to ask for feedback or ask questions when needed from other team members. Sometimes another person can give a different point of view that will offer a great collaboration environment.
 
 ### 3 reminders of how to keep myself in growth mindset:	
-- It’s never to late to learn something new
-- If at first, you don’t succeed, try and try again
-- I don’t know everything, and it’s ok
+- It’s never to late to learn something new.
+- If at first, you don’t succeed, try and try again.
+- I don’t know everything, and it’s ok.
 
 
 
