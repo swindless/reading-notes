@@ -13,4 +13,4 @@ F. $git pull - gets the updates from a remote repository and applies the latest 
 
 G. $git clone - downloads existing source code from a remote repository and save to the local computer
 
-After installing Git on the computer, follow this A-C-P procedure: copy the repo to the local computer, add some stuff in the file via a text editor, commit changes, & push it to the back to the github. *A-C-P (add, commit, & push)*
+After installing Git on the computer, follow this A-C-P procedure: copy the repo to the local computer, **add** some stuff in the file via a text editor, **commit** changes, & **push** it to the back to the github. *A-C-P (add, commit, & push)***
