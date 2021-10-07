@@ -11,8 +11,8 @@ In *Distributed Version Control* (DVC), clients don’t just check out the lates
 Git creates a snapshot of a file and stores a reference to it. Each time a saved changed version of a project is made, this is called *commit.* 
 
 ### Three states of Git
-+ Committed – stored in a local database
-+ Modified – file changed but not committed to the database	
-+ Staged – flagged a file’s changed version to be committee in the next snapshot
++ Committed – stored in a local database.
++ Modified – file changed but not committed to the database.	
++ Staged – flagged a file’s changed version to be committee in the next snapshot.
 
 
