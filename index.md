@@ -10,7 +10,7 @@
 
 4. Effort: Make an effort to learn from criticism and turn it into a positive outcome. Do not give up on the first sign of negativity, the more it’s worked on, the better it will become.
 
-5. Get feedback: It’s good to ask for feedback or ask questions when needed from other team members. Sometimes another person can give a different point of view that will offer a great collaboration environment.
+5. **Get feedback:** It’s good to ask for feedback or ask questions when needed from other team members. Sometimes another person can give a different point of view that will offer a great collaboration environment.
 
 ### 3 reminders of how to keep myself in growth mindset:	
 - It’s never to late to learn something new
