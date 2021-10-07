@@ -4,7 +4,7 @@
 
 *Local Version Control* (LVC) entails one database on your hard disk that stores changes to files.
 
-*Centralized Version Control* (CVC) is a single server that contains all the versioned files, and a number of clients that* check out files from that central place. Programmers are allowed to see activities with certain files and give admin more control over revision privileges. This has been the standard for version control.
+*Centralized Version Control* (CVC) is a single server that contains all the versioned files, and a number of clients that check out files from that central place. Programmers are allowed to see activities with certain files and give admin more control over revision privileges. This has been the standard for version control.
 
 In *Distributed Version Control* (DVC), clients don’t just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. Any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data.
 
