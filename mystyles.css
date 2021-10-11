@@ -1,0 +1,13 @@
+/*The opacity property specifies the opacity/transparency of an element*/
+body {background-color: lightgreen;  opacity: 0.6;}
+
+/*the first heading is centered on the webpage with blue font color using Hex value*/
+h1 {color: #0000ff; text-align:center; font-family: 'Tangerine', serif;}
+
+h3 {background-color: yellow; color: rgb(255, 81, 0);}
+
+p {color: rgb(47, 79, 79);}
+
+ul.circles {list-style-type: circle;}
+
+    
