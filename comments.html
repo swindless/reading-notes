@@ -1,13 +1,10 @@
 <html>
 <head>
+  <link rel="stylesheet" href="mycomments.css"> 
   <title>Spring Hill Resort Comments</title>
 </head>
-<style>
-	body {
-	  background-color: linen; font-family: Verdana, Geneva, Tahoma, sans-serif;
-	}
-</style>
 
+<body>
 <h1>Spring Hill Resort Submission Form</h1>
 
 First name: <input id="first_name">
@@ -18,20 +15,9 @@ Email address: <input id="email_address">
 
 <p id="result"></p>
  
-<script>
-function say_name() {
-    var fName = document.getElementById('first_name').value;
-    var lName = document.getElementById('last_name').value;
-    var eAddress = document.getElementById('email_address').value;
-  
-    var greeting = 'Hello ' + fName + ' ' + lName + '. ' + 'We will contact you at ' + eAddress ;
-  
-    document.getElementById('result').innerHTML = greeting;
-}
- 
-document.getElementById('send').addEventListener('click', say_name);
-		
-</script>
+<script 
+		type="text/javascript" src="resort.js">
+	</script>
 
 </body>
 </html>
