@@ -3,7 +3,7 @@
   
 <head>  
 <title>  
-Spring Hill Lab 08 
+JavaScript prompt() method  
 </title>  
 
 </head>  
@@ -26,17 +26,16 @@ Click Here
     var answer = prompt("What is the star rating you would give the hotel, 1-5", " "); 
 
 let text = "";  
+let increase = 1;
 
-for (let i=1; i <= answer; i++) {
-    text = "Thank you for leaving your feedback rating **" + answer + "**" + "<br>"; 
+do {
+        text += "Thank you for leaving your feedback rating **" + answer + "**" + "<br>";  
+        increase++; 
+    } while(increase <= answer);  
+   document.getElementById("demo").innerHTML = text; 
     
-    document.getElementById("demo").innerHTML = text;
-    let img = document.createElement("img");
-    img.src = "sunshine.jpg";
-    document.querySelector("body").appendChild(img);
+   } 
     
-}
-}    
 </script>  
 </body>  
   
