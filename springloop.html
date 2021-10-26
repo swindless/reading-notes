@@ -1,0 +1,42 @@
+<!DOCTYPE html>  
+<html>  
+  
+<head>  
+<title>  
+Spring Hill Lab 08 
+</title>  
+
+</head>  
+  
+<body style = "text-align: center;">  
+<h1 style = "color: red;">  
+    Spring Hill Resort Feedback 
+</h1>  
+<h2>  
+Welcome to our feedback page
+</h2>  
+  
+<button onclick = "feedback()">  
+Click Here  
+</button>  
+<p id = "demo"></p>  
+  
+<script>  
+    function feedback() {  
+    var answer = prompt("What is the star rating you would give the hotel, 1-5", " "); 
+
+let text = "";  
+
+for (let i=0; i < answer; i++) {
+    text += "Thank you for leaving your feedback rating **" + answer + "**" + "<br>"; 
+    document.getElementById("demo").innerHTML = text;
+    let img = document.createElement("img");
+    img.src = "sunshine.jpg";
+    document.querySelector("body").appendChild(img);
+    
+}
+}    
+</script>  
+</body>  
+  
+</html> 
