@@ -27,6 +27,7 @@ Click Here
 
 let text = "";  
 
+if (answer < 6){
 for (let i=1; i <= answer; i++) {
     text = "Thank you for leaving your feedback rating **" + answer + "**" + "<br>"; 
     
@@ -34,9 +35,11 @@ for (let i=1; i <= answer; i++) {
     let img = document.createElement("img");
     img.src = "sunshine.jpg";
     document.querySelector("body").appendChild(img);
-    
-}
 }    
+} else {
+  text = "Your rating is greater than 5, try again"; 
+} 
+}   
 </script>  
 </body>  
   
