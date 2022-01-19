@@ -17,5 +17,5 @@
 - Docs for the HTML <canvas> Element & Chart.js
 - Local Storage
 - CSS Transforms, Transitions, and Animations
- *What Google Learned About Teams*
+- *What Google Learned About Teams*
     
