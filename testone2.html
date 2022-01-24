@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<script type="text/javaScript">
+
+
+let name = prompt("What is your name?");
+if (name == null || name == "") {
+   console.log("User cancelled the login.");
+} else {
+ console.log("Hello "+ name + ", thanks for using our website!");
+}
+
+let newage = prompt("How old are you?");
+if (newage == null || newage == "") {
+     console.log("User cancelled login.");
+} else {
+ console.log("That's great, you are "+ newage + " years old");
+}
+
+let fnumber = parseFloat (prompt("Enter the first number?", ""));
+let snumber = parseFloat (prompt("Enter the second number?", ""));
+let lnumber = fnumber + snumber;
+ console.log("The total for your numbers added together is " + lnumber);
+
+let contest = prompt("Do you want to enter the contest?");
+if (contest == null || contest == "") {
+     console.log("User pressed cancel button.");
+
+}else if    (contest == "yes" || contest == "Yes") {
+     console.log(name + ", Thank you for entering the contest " + "at "
+    + newage + " years old. " + lnumber + " is a good number" );
+ } else if
+    (contest == "no" || contest == "No"){ 
+ console.log("Thank you " + name + ", please try again later ");
+}
+
+</script>
+</body>
+</html>

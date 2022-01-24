@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<style>
+    h1 {
+        color: blue;
+    }
+</style>
+<body>
+<main>
+
+ <h1>Class <span style="color: red">1</span> Lab</h1>   
+
+<script type="text/javaScript">
+
+let name = prompt("What is your name?");
+if (name == null || name == "") {
+   console.log("User cancelled the login.");
+} else {
+ console.log("Hello "+ name + ", thanks for using our website!");
+}
+
+let newage = prompt("How old are you?");
+if (newage == null || newage == "") {
+     console.log("User cancelled login.");
+} else {
+ console.log("That's great, you are "+ newage + " years old");
+}
+
+let fnumber = parseFloat (prompt("Enter the first number?", ""));
+let snumber = parseFloat (prompt("Enter the second number?", ""));
+let lnumber = fnumber + snumber;
+ console.log("The total for your numbers " + fnumber + " & " +
+  snumber + " added together is " + lnumber);
+
+let contest = prompt("Do you want to enter the contest?");
+if (contest == null || contest == "") {
+     console.log("User pressed cancel button.");
+
+}else if    (contest == "yes" || contest == "Yes") {
+     console.log(name + ", Thank you for entering the contest " + "at "
+    + newage + " years old. " + lnumber + " is a good number" );
+ } else if
+    (contest == "no" || contest == "No"){ 
+ console.log("Thank you " + name + ", please try again later ");
+}
+
+</script>
+
+<p>What is your <span style="color: greenyellow">name?</span></p>
+<p>How <span style="color: red">old </span>are you?</p>
+<p>Enter the first <span style="color: brown"> number?</span></p>
+<p>Enter the <span style="color: orangered">second </span>number?</p>
+<p>Do <span style="color: purple">you </span>want to enter the contest?</p>
+
+<footer>&copy; Copyright 2022 HTML.Lab1b</footer>
+</main> 
+</body>
+</html>

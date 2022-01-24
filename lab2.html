@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code School Lab 2</title>
+</head>
+<body>
+<script type="text/javaScript">  
+    
+let username = prompt("What is your name?");
+let upname = username.toUpperCase();
+if (username == null || username == "") {
+   console.log("User cancelled the login.");
+} else {
+ console.log("Hi "+ upname + ", welcome to my website!");
+}
+
+let mylocation = prompt("Do you live in Memphis, Tn?");
+if (mylocation == null || mylocation == "") {
+   console.log("User cancelled the login.");
+
+} else if (mylocation == "yes" || mylocation == "Yes") {
+ console.log("Hey, I'm from Memphis, very cool city");
+
+} else if
+    (mylocation == "no" || mylocation == "No"){ 
+ console.log("That's ok " + upname + ", if you do not live in Memphis");
+}
+
+let school = prompt("Are you a student at Code School?");
+if (school == null || school == "") {
+   console.log("User cancelled the login.");
+} else if (school == "yes" || school == "Yes") {
+ console.log(school.toUpperCase() + ", that's great, I'm a student there too");
+
+} else if
+    (school == "no" || school == "No"){ 
+ console.log("You can learn to code at Code School");
+}
+
+let studyjs= prompt("Are you learning about Javascript?");
+// let upstudy = studyjs.toUpperCase();
+if (studyjs == null || studyjs == "") {
+   console.log("User cancelled the login.");
+} else if (studyjs == "yes" || studyjs == "Yes" || studyjs == "y" || studyjs == "Y") {
+ console.log(upname + ", learning Javascript is a good tool to have");
+} else if
+    (studyjs == "no" || studyjs == "No" || studyjs == "n" || studyjs == "N"){ 
+ console.log("You should take Javascript " + upname + ", it's fun to code");
+}
+</script>
+</body>
+</html>
