@@ -6,12 +6,10 @@ Tags are referred to as elements.
  about elements.
  - Atributes require a name and a value.
 ## B. The different HTMLs
- - HTML 4 was released in 1997. Most elements are used today except <center>, 
-  <font>, & <strike>. These can be
-     accessed with CSS instead.
+ - HTML 4 was released in 1997. Most elements are used today except center, 
+  font, & strike. These can be accessed with CSS instead.
  - XHTML 1.0 was released in 2000. The key benefit was it works well with other
- programs written to create
-     and process XML documents.
+ programs written to create and process XML documents.
  -	HTML5 - Web pages do not need to close all tags and new elements & attributes
  were  introduced.
 ## C.  Attributes
