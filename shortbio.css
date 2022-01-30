@@ -1,7 +1,7 @@
 body {background-color: rgb(128, 170, 209);  opacity: 0.6;}
 
 /*the first heading is centered on the webpage with blue font color using Hex value*/
-h1 {color: #7700ff; text-align:center;
-    border: 4px dotted blue; font-family: sans-serif;}
+h1 {color: #7700ff; text-align:center; border: 5px solid green;
+    font-family: sans-serif;}
 
 img {float: left; width:170px; height:145px; margin-left:35px; padding-right: 15px;}
