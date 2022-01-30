@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- This will diplay my favorite places  -->
+    <h1>Lab 3 - The Guessing Game- Part II</h1>
+    <h2>Favorite Places to Visit</h2>
+    <ol>
+       <li>San Diego, California</li>
+       <li>Los Angeles, California</li>
+       <li>Dallas, Texas</li>
+       <li>St. Louis, Missouri</li>
+       <li>Phoenix, Arizona</li>
+       <li>Cincinnati, Ohio</li>
+       <li>Detroit, Michigan</li>
+       <li>Chicago, Illinois</li>
+       <li>Nashville, Tennessee</li>
+       <li>Orlando, Florida</li>
+    </ol>
+
+<!-- Display job Experiences -->
+    <h3>Job Experiences</h3>
+    <ul>
+      <li>Accounting Assistant</li>
+      <li>Accounts Receivable Remittance Specialist</li>
+      <li>Accounts Coordinator</li>
+      <li>Senior Accounts Receivable Specialist</li>
+    </ul>
+
+<script type="text/javaScript">
+
+let correctAns = ["chocolate", "vanilla", "moose", "cookie dough"];
+
+userAns = prompt("What kind of ice cream do I like?");
+if userAns = ("chocolate" || "vanilla" || "moose" || "cookie dough") {
+for(x = 0; x <= 3; x++){
+    
+   
+      console.log("I love "+ correctAns[x]);
+} else {
+  console.log("Try again");
+}
+}
+   
+// User will guess my favorite number between 1 to 10, 
+// attempt allowed is 6 times
+let  rightnum = 8;
+    
+    for (let selectnumber = 0; selectnumber < 6; selectnumber++) { 
+
+    guessnum = prompt("Guess a number between 1 and 10?");
+
+    if (rightnum > guessnum) {
+    alert("Sorry, " + guessnum + " is too low, try again");
+    
+
+    } else if (rightnum < guessnum) {
+      alert("Sorry, " + guessnum + " is too high, please try again");
+
+
+    } else {
+      alert("Fantastic, you got the right number which is " + guessnum + " !!");
+      break;
+    }
+    }
+
+    if (rightnum != guessnum) {
+      alert("Sorry, You reached the maximum attempt limit 6, please try again later");
+    }
+// User will choose my 3 favorite cities, allowed 6 attempts to guess
+
+  //  let usercity = ["san diego", "dallas", "orlando"]; 
+  
+    // for (selectcity = 0; selectcity < 6; selectcity++) {
+    // let guesscity = prompt("Guess 3 cities that I like to visit").toLowerCase();
+    // console.log(guesscity);   
+      // for(x = 0; x <= 3; x++) {
+
+      // if guesscity != usercity[x] {
+        // alert("I love San Diego");
+        // console.log(guesscity +  ", That's not it, try again");   
+      // } else {
+        // console.log(usercity[x] + " is very nice to visit");
+  
+      // }
+      // }
+    // }
+    //   if (    ) {
+    //   alert("Sorry, You reached the maximum attempt limit 6, please try again later");
+    // }
+</script>
+</body>
+</html>
