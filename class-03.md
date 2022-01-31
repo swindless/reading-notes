@@ -12,4 +12,4 @@
 1. An array is an ordered list of values. Each value is called an element specified by an index. It stores elements with the types number, string, and boolean.
 2. If you know the number of elements that the array will hold, you can create an array with an initial size as shown in the following example:
 let colors = ['red', 'green', 'blue'];
-3. To access an element in an array, you specify an index in the square brackets []:  colors [].
+3. To access an element in an array, you specify an index in the square brackets [], example: colors [].
