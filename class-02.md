@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## HTML- Creating Text
 A. *Headings* - HTML offers six levels of heading tags, h1 through h6. The lower
 the heading level number, the greater importance it becomes.The h1

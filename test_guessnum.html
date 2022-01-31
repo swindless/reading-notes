@@ -35,19 +35,21 @@
 
 <script type="text/javaScript">
 
-let correctAns = ["chocolate", "vanilla", "moose", "cookie dough"];
-
-userAns = prompt("What kind of ice cream do I like?");
-if userAns = ("chocolate" || "vanilla" || "moose" || "cookie dough") {
-for(x = 0; x <= 3; x++){
-    
+// let correctAns = ["chocolate", "vanilla", "moose", "cookie dough"];
+// for (selectcity = 0; selectcity < 6; selectcity++) {
+// userAns = prompt("What kind of ice cream do I like?");
+// let upAns = userAns;
+ 
+// for(x = 0; x <= 3; x++){
+// if (upAns == "chocolate" || upAns == "vanilla" || upAns == "moose" || 
+//    upAns == "cookie dough") {   
    
-      console.log("I love "+ correctAns[x]);
-} else {
-  console.log("Try again");
-}
-}
-   
+//  console.log("I love "+ correctAns[x]);
+// } else {
+//   console.log("Try again");
+// }
+// }
+// }   
 // User will guess my favorite number between 1 to 10, 
 // attempt allowed is 6 times
 let  rightnum = 8;
@@ -75,25 +77,27 @@ let  rightnum = 8;
     }
 // User will choose my 3 favorite cities, allowed 6 attempts to guess
 
-  //  let usercity = ["san diego", "dallas", "orlando"]; 
+   let usercity = ["san diego", "dallas", "orlando"]; 
   
-    // for (selectcity = 0; selectcity < 6; selectcity++) {
-    // let guesscity = prompt("Guess 3 cities that I like to visit").toLowerCase();
-    // console.log(guesscity);   
-      // for(x = 0; x <= 3; x++) {
+    for (selectcity = 0; selectcity < 6; selectcity++) {
+    let guesscity = prompt("Guess 3 cities that I like to visit".toLowerCase());
+    console.log(guesscity); 
+    upcity[ ] = guesscity;  
+      for(x = 0; x <= 3; x++) {
 
-      // if guesscity != usercity[x] {
-        // alert("I love San Diego");
-        // console.log(guesscity +  ", That's not it, try again");   
-      // } else {
-        // console.log(usercity[x] + " is very nice to visit");
+      if upcity[x] == usercity[x] {
+      // if (upcity == "san diego" || upcity == "dallas" || upcity == "orlando") {  
+       
+        console.log(usercity[x] +  " is very nice to visit");   
+      } else {
+        console.log(usercity[x] + " is not my favorite, try again");
   
-      // }
-      // }
-    // }
-    //   if (    ) {
-    //   alert("Sorry, You reached the maximum attempt limit 6, please try again later");
-    // }
+      }
+      }
+        if ( selectcity = 7 ) {
+      alert("oh no, You reached the maximum attempt limit 6, please try again later");
+      }
+    }
 </script>
 </body>
 </html>
